@@ -7,3 +7,7 @@ To decrypt you need to install Emacs 25.
 
 * `vim-ransom crypt` - vimrc encrypt
 * `vim-ransom decrypt` - vimrc decrypt, but require Emacs 25.
+
+# OS
+
+* Mac OSX
