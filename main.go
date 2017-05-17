@@ -86,7 +86,7 @@ func decrypt() {
 }
 
 func emacs_version_25() bool {
-	out, _ := exec.Command("emaacs", "--version").Output()
+	out, _ := exec.Command("emacs", "--version").Output()
 
 	re := regexp.MustCompile("GNU Emacs ([0-9]+).([0-9]+).([0-9]+)")
 	match := re.FindAllStringSubmatch(string(out), -1)
